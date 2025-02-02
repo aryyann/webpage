@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffcc;
+}
+
+p {
+  font-size: 20px;
+}
+
+#container {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-yes {
+  background-color: #32CD32;
+  color: white;
+}
+
+.btn-no {
+  background-color: #FF0000;
+  color: white;
+  position: absolute;
+}
+
+.hide {
+  display: none;
+}
